@@ -116,6 +116,6 @@ As skills são perfeitas para tarefas, mas, para operações mais robustas, vale
 - [Agent Skills no awesome-copilot][awesome-copilot-skills]
 
 [previous-lesson]: ../4-mcp/
-[next-lesson]: ../6-custom-agents/
+[next-lesson]: ../6-mcp-playwright/
 [about-agent-skills]: https://docs.github.com/copilot/concepts/agents/about-agent-skills
 [awesome-copilot-skills]: https://github.com/github/awesome-copilot/tree/main/skills

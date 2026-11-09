@@ -3,7 +3,7 @@ title: "第 2 课 - 添加星级评分：快速上手"
 description: "在 GitHub Copilot app 中启动第一个智能体会话，对游戏卡片进行一项小改动，并通过第一个拉取请求合并更改。"
 authors:
   - geektrainer
-lastUpdated: 2026-07-09
+lastUpdated: 2026-10-22
 ---
 
 在上一课中，你浏览了工作区并使用了快速聊天。现在可以启动**智能体会话**，对项目进行第一次更改。此次改动很小：游戏数据中已有星级评分，但主页上的游戏卡片尚未显示。你将要求智能体显示评分、审查更改，并通过第一个拉取请求合并更改。
@@ -47,7 +47,7 @@ Copilot app 首先创建新的工作树，即项目的隔离副本。随后，�
 
 所有 AI 生成的更改在合并前都应接受审查，即使改动很小。接下来直接在 Copilot app 中探索这些更改。
 
-1. 在应用右上角选择 **Toggle review panel**。差异屏幕会打开，显示 Copilot 所做的所有待处理更改。
+1. 在应用右上角选择 **Toggle review panel**。在打开的面板中选择 **Changes**，查看已更改的文件及其差异。
 
     ![GitHub Copilot app 顶部工具栏，箭头指向 Create PR 右侧的 Toggle review panel 按钮](../../../_images/app-2-review-panel.png)
 
@@ -97,10 +97,11 @@ Copilot app 首先创建新的工作树，即项目的隔离副本。随后，�
 
 1. 选择右上角的 **Create PR**。
 2. 如果系统提示，请选择 **Sign in with your browser**，并按照提示完成身份验证。
-3. Copilot 开始创建 PR。
-4. 选择聊天上方的 **PR** 气泡，在审查窗格中打开并查看拉取请求。可根据需要在此审查 PR。
-5. 准备好后，选择 **Ready to merge**。
-6. 在新对话框窗口中选择 **Merge pull request**，合并拉取请求。
+3. 如果 Copilot 说明存储库策略要求先有对应议题才能创建 PR，请确认它应遵循此流程。
+4. Copilot 开始创建 PR。
+5. 选择聊天上方的 **PR** 气泡，在审查窗格中打开并查看拉取请求。可根据需要在此审查 PR。
+6. 准备好后，选择 **Ready to merge**。
+7. 在新对话框窗口中选择 **Merge pull request**，合并拉取请求。
 
 ## 总结与后续步骤
 
